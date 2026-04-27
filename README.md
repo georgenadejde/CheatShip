@@ -2,7 +2,7 @@
 
 Personal hacking cheat sheet — built from writeups, CTFs, course notes, and personal projects.
 
-Live here -> ![Cheat Ship](https://georgenadejde.github.io/CheatShip)
+Live here -> [Cheat Ship](https://georgenadejde.github.io/CheatShip)
 
 ## Contact
 
