@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+
+:root {
+  --md-code-bg-color: #0d0d1a;
+  --md-code-fg-color: #e8e8f0;
+}
+
+.md-typeset code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78em;
+}
+
+.md-typeset pre {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* tighten up admonition padding */
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 0.85rem;
+}
+
+/* make tables slightly smaller */
+.md-typeset table:not([class]) {
+  font-size: 0.8rem;
+}
+
+/* copy button always visible */
+.md-clipboard {
+  opacity: 0.5;
+}
