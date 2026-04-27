@@ -1,0 +1,37 @@
+cat > .gitignore << 'EOF'
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata/
+
+# Ruby/Bundler
+vendor/
+.bundle/
+Gemfile.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive files — never commit these
+*.key
+*.pem
+*.env
+.env*
+secrets.*
+
+# Large or unnecessary files
+*.zip
+*.tar.gz
+*.log
+
+# Obsidian vault config — personal, not needed in repo
+.obsidian/
+EOF
